@@ -1,3 +1,5 @@
+package instruments;
+
 import instruments.Drums;
 import instruments.InstrumentType;
 import org.junit.Before;

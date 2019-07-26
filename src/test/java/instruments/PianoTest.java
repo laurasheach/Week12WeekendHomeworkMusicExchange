@@ -1,3 +1,5 @@
+package instruments;
+
 import instruments.InstrumentType;
 import instruments.Piano;
 import org.junit.Before;
