@@ -1,8 +1,9 @@
 package instruments;
 
 import behaviours.IPlay;
+import behaviours.ISell;
 
-public class Drums extends Instrument implements IPlay {
+public class Drums extends Instrument implements IPlay, ISell {
 
     private int noOfDrums;
 
@@ -17,5 +18,9 @@ public class Drums extends Instrument implements IPlay {
 
     public String play() {
         return "Boom. Tish!";
+    }
+
+    public double calculateMarkup() {
+        return getSellingPrice() - getPurchasePrice();
     }
 }

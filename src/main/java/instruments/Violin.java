@@ -1,8 +1,9 @@
 package instruments;
 
 import behaviours.IPlay;
+import behaviours.ISell;
 
-public class Violin extends Instrument implements IPlay {
+public class Violin extends Instrument implements IPlay, ISell {
 
     private String type;
 
@@ -17,5 +18,9 @@ public class Violin extends Instrument implements IPlay {
 
     public String play() {
         return "Screeeeeech!";
+    }
+
+    public double calculateMarkup() {
+        return getSellingPrice() - getPurchasePrice();
     }
 }

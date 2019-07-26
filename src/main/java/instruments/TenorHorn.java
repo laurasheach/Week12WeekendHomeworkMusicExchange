@@ -1,8 +1,9 @@
 package instruments;
 
 import behaviours.IPlay;
+import behaviours.ISell;
 
-public class TenorHorn extends Instrument implements IPlay {
+public class TenorHorn extends Instrument implements IPlay, ISell {
 
     private int valves;
 
@@ -17,5 +18,9 @@ public class TenorHorn extends Instrument implements IPlay {
 
     public String play() {
         return "Toot toot!";
+    }
+
+    public double calculateMarkup() {
+        return getSellingPrice() - getPurchasePrice();
     }
 }
