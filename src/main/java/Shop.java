@@ -1,4 +1,8 @@
+import accessories.Accessory;
+import accessories.DrumSticks;
 import behaviours.ISell;
+import instruments.Guitar;
+import instruments.Instrument;
 
 import java.util.ArrayList;
 
@@ -38,5 +42,37 @@ public class Shop {
             profit += stock.calculateMarkup();
         }
         return profit;
+    }
+
+    public double addCashToTill(double sale){
+        return this.till += sale;
+    }
+
+    public double removeCashFromTill(double purchase){
+        return this.till -= purchase;
+    }
+
+    public void sellInstrumentItem(ISell stock){
+        Instrument instrument = (Instrument) stock;
+        removeItemFromStock(stock);
+        addCashToTill(instrument.getSellingPrice());
+    }
+
+    public void sellAccessoryItem(ISell stock){
+        Accessory accessory = (Accessory) stock;
+        removeItemFromStock(stock);
+        addCashToTill(accessory.getSellingPrice());
+    }
+
+    public void purchaseInstrument(ISell stock) {
+        Instrument instrument = (Instrument) stock;
+        addItemToStock(stock);
+        removeCashFromTill(instrument.getPurchasePrice());
+    }
+
+    public void purchaseAccessory(ISell stock) {
+        Accessory accessory = (Accessory) stock;
+        addItemToStock(stock);
+        removeCashFromTill(accessory.getPurchasePrice());
     }
 }

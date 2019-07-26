@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9218ae63-64ad-4fae-b40f-d5e7ab6d69a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShopTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Shop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Shop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DrumSticksTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DrumsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/GuitarTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PianoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SheetMusicTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ShopTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ShopTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TenorHornTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ViolinTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -79,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Shop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+            <state relative-caret-position="454">
+              <caret line="75" column="36" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#272#273#0" expanded="true" />
@@ -93,6 +83,10 @@
                 <element signature="e#529#530#0" expanded="true" />
                 <element signature="e#569#570#0" expanded="true" />
                 <element signature="e#603#604#0" expanded="true" />
+                <element signature="e#846#847#0" expanded="true" />
+                <element signature="e#877#878#0" expanded="true" />
+                <element signature="e#944#945#0" expanded="true" />
+                <element signature="e#986#987#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,8 +95,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ShopTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="59" column="58" selection-start-line="59" selection-start-column="58" selection-end-line="59" selection-end-column="58" />
+            <state relative-caret-position="388">
+              <caret line="101" column="29" lean-forward="true" selection-start-line="101" selection-start-column="29" selection-end-line="101" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#516#517#0" expanded="true" />
@@ -238,8 +232,8 @@
         <option value="$PROJECT_DIR$/src/main/java/accessories/SheetMusic.java" />
         <option value="$PROJECT_DIR$/src/test/java/SheetMusicTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/accessories/SheetMusicTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Shop.java" />
         <option value="$PROJECT_DIR$/src/test/java/ShopTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Shop.java" />
       </list>
     </option>
   </component>
@@ -250,10 +244,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="977" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="24" />
+    <option name="width" value="1037" />
+    <option name="height" value="974" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -368,7 +362,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.All in MusicExchange">
     <configuration name="All in MusicExchange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicExchange" />
       <option name="PACKAGE_NAME" value="" />
@@ -377,9 +371,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShopTest.canPurchaseItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MusicExchange" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShopTest" />
+      <option name="METHOD_NAME" value="canPurchaseItem" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopTest.canSellAccessoryItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MusicExchange" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShopTest" />
+      <option name="METHOD_NAME" value="canSellAccessoryItem" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopTest.canSellInstrumentItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MusicExchange" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShopTest" />
+      <option name="METHOD_NAME" value="canSellInstrumentItem" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopTest.canSellItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MusicExchange" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShopTest" />
+      <option name="METHOD_NAME" value="canSellItem" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in MusicExchange" />
+        <item itemvalue="JUnit.ShopTest.canPurchaseItem" />
+        <item itemvalue="JUnit.ShopTest.canSellAccessoryItem" />
+        <item itemvalue="JUnit.ShopTest.canSellInstrumentItem" />
+        <item itemvalue="JUnit.ShopTest.canSellItem" />
       </list>
     </recent_temporary>
   </component>
@@ -397,39 +435,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_MusicExchange - 2019.07.26 at 17h 50m 38s.xml">
+    <history-entry file="All_in_MusicExchange - 2019.07.26 at 19h 10m 15s.xml">
       <configuration name="All in MusicExchange" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_MusicExchange - 2019.07.26 at 18h 09m 54s.xml">
+    <history-entry file="All_in_MusicExchange - 2019.07.26 at 19h 22m 28s.xml">
       <configuration name="All in MusicExchange" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_MusicExchange - 2019.07.26 at 18h 29m 07s.xml">
-      <configuration name="All in MusicExchange" configurationId="JUnit" />
+    <history-entry file="ShopTest_canSellItem - 2019.07.26 at 19h 30m 50s.xml">
+      <configuration name="ShopTest.canSellItem" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_MusicExchange - 2019.07.26 at 18h 29m 34s.xml">
-      <configuration name="All in MusicExchange" configurationId="JUnit" />
+    <history-entry file="ShopTest_canSellItem - 2019.07.26 at 19h 33m 44s.xml">
+      <configuration name="ShopTest.canSellItem" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_MusicExchange - 2019.07.26 at 18h 30m 52s.xml">
-      <configuration name="All in MusicExchange" configurationId="JUnit" />
+    <history-entry file="ShopTest_canSellItem - 2019.07.26 at 19h 38m 30s.xml">
+      <configuration name="ShopTest.canSellItem" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_MusicExchange - 2019.07.26 at 18h 37m 16s.xml">
-      <configuration name="All in MusicExchange" configurationId="JUnit" />
+    <history-entry file="ShopTest_canSellInstrumentItem - 2019.07.26 at 19h 40m 30s.xml">
+      <configuration name="ShopTest.canSellInstrumentItem" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_MusicExchange - 2019.07.26 at 18h 39m 10s.xml">
-      <configuration name="All in MusicExchange" configurationId="JUnit" />
+    <history-entry file="ShopTest_canSellAccessoryItem - 2019.07.26 at 19h 42m 50s.xml">
+      <configuration name="ShopTest.canSellAccessoryItem" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_MusicExchange - 2019.07.26 at 18h 46m 23s.xml">
-      <configuration name="All in MusicExchange" configurationId="JUnit" />
+    <history-entry file="ShopTest_canSellAccessoryItem - 2019.07.26 at 19h 43m 11s.xml">
+      <configuration name="ShopTest.canSellAccessoryItem" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_MusicExchange - 2019.07.26 at 18h 53m 17s.xml">
-      <configuration name="All in MusicExchange" configurationId="JUnit" />
+    <history-entry file="ShopTest_canPurchaseItem - 2019.07.26 at 19h 46m 12s.xml">
+      <configuration name="ShopTest.canPurchaseItem" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_MusicExchange - 2019.07.26 at 19h 05m 01s.xml">
-      <configuration name="All in MusicExchange" configurationId="JUnit" />
+    <history-entry file="ShopTest_canPurchaseItem - 2019.07.26 at 19h 46m 27s.xml">
+      <configuration name="ShopTest.canPurchaseItem" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1680" height="974" extended-state="6" />
+    <frame x="0" y="24" width="1037" height="974" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -437,35 +475,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.12148962" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="2" weight="0.32993197" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32993197" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="right" id="Theme Preview" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info id="UI Designer" order="1" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.12148962" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.12060302" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -486,7 +496,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-    </layout-to-restore>
+    </layout>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -781,8 +791,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Shop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        <state relative-caret-position="454">
+          <caret line="75" column="36" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#272#273#0" expanded="true" />
@@ -795,14 +805,18 @@
             <element signature="e#529#530#0" expanded="true" />
             <element signature="e#569#570#0" expanded="true" />
             <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#986#987#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ShopTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="59" column="58" selection-start-line="59" selection-start-column="58" selection-end-line="59" selection-end-column="58" />
+        <state relative-caret-position="388">
+          <caret line="101" column="29" lean-forward="true" selection-start-line="101" selection-start-column="29" selection-end-line="101" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#516#517#0" expanded="true" />

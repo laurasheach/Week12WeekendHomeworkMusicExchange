@@ -59,4 +59,48 @@ public class ShopTest {
         shop.addItemToStock(sheetMusic);
         assertEquals(1798, shop.getPotentialProfit(), 0.01);
     }
+
+    @Test
+    public void canAddSaleToTill() {
+        shop.addCashToTill(guitar.getSellingPrice());
+        assertEquals(1115, shop.getTill(), 0.01);
+    }
+
+    @Test
+    public void canRemoveCashFromTill() {
+        shop.removeCashFromTill(sheetMusic.getPurchasePrice());
+        assertEquals(998, shop.getTill(), 0.01);
+    }
+
+    @Test
+    public void canSellInstrumentItem() {
+        shop.addItemToStock(guitar);
+        shop.addItemToStock(piano);
+        shop.sellInstrumentItem(piano);
+        assertEquals(1, shop.getStockCount());
+        assertEquals(3995, shop.getTill(), 0.01);
+    }
+
+    @Test
+    public void canSellAccessoryItem() {
+        shop.addItemToStock(sheetMusic);
+        shop.addItemToStock(drumSticks);
+        shop.sellAccessoryItem(sheetMusic);
+        assertEquals(1, shop.getStockCount());
+        assertEquals(1010, shop.getTill(), 0.01);
+    }
+
+    @Test
+    public void canPurchaseInstrumentItem() {
+        shop.purchaseInstrument(guitar);
+        assertEquals(1, shop.getStockCount());
+        assertEquals(925, shop.getTill(), 0.01);
+    }
+
+    @Test
+    public void canPurchaseAccessoryItem() {
+        shop.purchaseAccessory(drumSticks);
+        assertEquals(1, shop.getStockCount());
+        assertEquals(995, shop.getTill(), 0.01);
+    }
 }
